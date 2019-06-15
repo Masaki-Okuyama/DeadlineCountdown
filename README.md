@@ -8,4 +8,4 @@ JSTでしか動作確認してないので他で正しい時間か知りませ�
 そして目に悪い  
 
 # リンク
-[しめきりカウントダウン！](https://masaki-okuyama.github.io/DeadlineCountdown/)
+[キルラキルカウントダウン](https://masaki-okuyama.github.io/DeadlineCountdown/)
