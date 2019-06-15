@@ -1,7 +1,7 @@
 /************
   Import
 ************/
-@import url("./sans.css");
+@import url("./raglanpunch.css");
 @import url("./yakuhanjp.css");
 
 
@@ -18,9 +18,9 @@
   border: none;
   outline: none;
   box-shadow: none;
-  font-family: "YakuHanJP", "Sans", sans-serif;
+  font-family: "YakuHanJP", "RaglanPunch", sans-serif;
   font-weight: 400;
-  color: #444;
+  color: #cc0000;
   font-size: 16px;
   text-align: left;
   vertical-align: baseline;

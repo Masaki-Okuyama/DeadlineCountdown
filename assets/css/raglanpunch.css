@@ -1,0 +1,18 @@
+
+@font-face {
+  font-family: "RaglanPunch";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/RaglanPunch/FOT-RaglanPunchStd-UB.woff2") format("woff2"),
+       url("../fonts/RaglanPunch/FOT-RaglanPunchStd-UB.woff") format("woff"),
+       url("../fonts/RaglanPunch/FOT-RaglanPunchStd-UB.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "RaglanPunch";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/RaglanPunch/FOT-RaglanPunchStd-UB.woff2") format("woff2"),
+       url("../fonts/RaglanPunch/FOT-RaglanPunchStd-UB.woff") format("woff"),
+       url("../fonts/RaglanPunch/FOT-RaglanPunchStd-UB.otf") format("opentype");
+}
