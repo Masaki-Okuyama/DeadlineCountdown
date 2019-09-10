@@ -5,27 +5,27 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>KILL la KILL COUNT DOWN</title>
+  <title>COUNT DOWN</title>
 
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/jquery.countdown.css">
 </head>
 <body>
-  <h1 class="H center margin">キルラキル COUNT DOWN</h1>
+  <h1 class="H center margin">中間審査 COUNT DOWN</h1>
   <hr>
-  <h2 class="H center margin">キルラキル コンプリートサウンドトラック, Blu-ray Disc BOX</h1>
-  <p class="H center margin">6月26日発売</p>
+  <h2 class="H center margin">ポスター完成</h1>
+  <p class="H center margin">9月26日13:10</p>
   <div class="thesis-clock"></div>
   <hr>
-  <h2 class="H center margin">梗概,スライド提出</h1>
-  <p class="H center margin">７月6日の23:00</p>
+  <h2 class="H center margin">中間審査</h1>
+  <p class="H center margin">10月6日の12:50</p>
   <div class="outline-clock"></div>
   <hr>
-  <h2 class="H center margin">キルラキル ザ・ゲーム -異布-</h1>
-  <p class="H center margin">7月25日発売</p>
+  <h2 class="H center margin">『moon』switch移植版発売</h1>
+  <p class="H center margin">10月10日の00:00</p>
   <div class="keynote-clock"></div>
   <hr>
-  <h2 class="H center margin">KILL la KILL</h1>
+  <h2 class="H center margin">進捗どうですか</h1>
   <script src="assets/js/jquery-1.11.2.min.js"></script>
   <script src="assets/js/moment.js"></script>
   <script src="assets/js/moment-timezone.min.js"></script>
@@ -43,11 +43,11 @@
       };
     };
     $(document).ready(function(){
-      var thesisDeath = moment("201906260000", "YYYYMMDDhhmm").toDate();
+      var thesisDeath = moment("201909261310", "YYYYMMDDhhmm").toDate();
       $('.thesis-clock').countdown({until: thesisDeath, format: 'ODHMS'});
-      var outlineDeath = moment("201907072300", "YYYYMMDDhhmm").toDate();
+      var outlineDeath = moment("201910061250", "YYYYMMDDhhmm").toDate();
       $('.outline-clock').countdown({until: outlineDeath, format: 'ODHMS'});
-      var keynoteDeath = moment("201907250000", "YYYYMMDDhhmm").toDate();
+      var keynoteDeath = moment("201910100000", "YYYYMMDDhhmm").toDate();
       $('.keynote-clock').countdown({until: keynoteDeath, format: 'ODHMS'});
     });
   </script>
