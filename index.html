@@ -11,18 +11,18 @@
   <link rel="stylesheet" href="assets/css/jquery.countdown.css">
 </head>
 <body>
-  <h1 class="H center margin">中間審査 COUNT DOWN</h1>
+  <h1 class="H center margin">卒業論文 COUNT DOWN</h1>
   <hr>
-  <h2 class="H center margin">ポスター完成</h1>
-  <p class="H center margin">9月26日13:10</p>
+  <h2 class="H center margin">卒論提出</h1>
+  <p class="H center margin">1月24日12:00</p>
   <div class="thesis-clock"></div>
   <hr>
-  <h2 class="H center margin">中間審査</h1>
-  <p class="H center margin">10月6日の12:50</p>
+  <h2 class="H center margin">最終審査</h1>
+  <p class="H center margin">1月30日の9:00</p>
   <div class="outline-clock"></div>
   <hr>
-  <h2 class="H center margin">『moon』switch移植版発売</h1>
-  <p class="H center margin">10月10日の00:00</p>
+  <h2 class="H center margin">梗概の正式版提出</h1>
+  <p class="H center margin">2月6日の12:00</p>
   <div class="keynote-clock"></div>
   <hr>
   <h2 class="H center margin">進捗どうですか</h1>
@@ -43,11 +43,11 @@
       };
     };
     $(document).ready(function(){
-      var thesisDeath = moment("201909261310", "YYYYMMDDhhmm").toDate();
+      var thesisDeath = moment("202001241200", "YYYYMMDDhhmm").toDate();
       $('.thesis-clock').countdown({until: thesisDeath, format: 'ODHMS'});
-      var outlineDeath = moment("201910061250", "YYYYMMDDhhmm").toDate();
+      var outlineDeath = moment("202001230900", "YYYYMMDDhhmm").toDate();
       $('.outline-clock').countdown({until: outlineDeath, format: 'ODHMS'});
-      var keynoteDeath = moment("201910100000", "YYYYMMDDhhmm").toDate();
+      var keynoteDeath = moment("202002061200", "YYYYMMDDhhmm").toDate();
       $('.keynote-clock').countdown({until: keynoteDeath, format: 'ODHMS'});
     });
   </script>
